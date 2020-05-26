@@ -1,0 +1,43 @@
+% !TeX root = ./main.tex
+
+\ustcsetup{
+  title              = {基于深度学习与视觉注意的\\遥感图像目标检测},
+  title*             = {Remote Sensing Image\\Object Detection Based on \\Deep Learning and Visual Attention},
+  author             = {揭一新},
+  author*            = {YiXin Jie},
+  speciality         = {计算机科学与技术},
+  speciality*        = {Computer Science and Technology},
+  supervisor         = {万寿红教授},
+  supervisor*        = {Prof. ShouHong Wan},
+  % date               = {2017-05-01},  % 默认为今日
+  % professional-type  = {专业学位类型},
+  % professional-type* = {Professional degree type},
+  % secret-level       = {秘密},     % 绝密|机密|秘密，注释本行则不保密
+  % secret-level*      = {Secret},  % Top secret|Highly secret|Secret
+  % secret-year        = {10},      % 保密年限
+}
+
+
+% 加载宏包
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage[ruled,linesnumbered]{algorithm2e}
+\usepackage{siunitx}
+\usepackage{amsthm}
+\usepackage{subfigure}
+
+% 数学命令
+\input{math-commands.tex}
+
+% 配置图片的默认目录
+\graphicspath{{figures/}}
+
+% 用于写文档的命令
+\DeclareRobustCommand\cs[1]{\texttt{\char`\\#1}}
+\DeclareRobustCommand\pkg{\textsf}
+\DeclareRobustCommand\file{\nolinkurl}
+
+
+% hyperref 宏包在最后调用
+\usepackage{hyperref}
